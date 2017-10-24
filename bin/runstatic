@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var path = require("path");
+
+var express = require("express");
+var program = require('commander');
+
+var app = express();
+
+program
+    .version(require('../package.json').version)
+    .description(require('../package.json').description)
+    .option('-P, --path [path]', 'Set port')
+    .option('-p, --port [port]', 'Set path')
+    .parse(process.argv);
+
+var filePath =  path.join(process.cwd(), program.path || '');
+var port = program.port || 8080;
+
+app.use(express.static(filePath)).listen(port);
+
+console.log('Listening at http://localhost:' + port);

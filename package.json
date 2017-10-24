@@ -1,0 +1,26 @@
+{
+  "name": "run-static",
+  "version": "1.0.0",
+  "description": "A simple static file server based on express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "runstatic": "bin/runstatic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoqiangsdl/html-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoqiangsdl/html-server/issues"
+  },
+  "homepage": "https://github.com/xiaoqiangsdl/html-server#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "express": "^4.16.2"
+  }
+}
