@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaoqiangsdl/html-server.git"
+    "url": "git+https://github.com/xiaoqiangsdl/run-static.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiaoqiangsdl/html-server/issues"
+    "url": "https://github.com/xiaoqiangsdl/run-static/issues"
   },
-  "homepage": "https://github.com/xiaoqiangsdl/html-server#readme",
+  "homepage": "https://github.com/xiaoqiangsdl/run-static#readme",
   "dependencies": {
     "commander": "^2.11.0",
     "express": "^4.16.2"
