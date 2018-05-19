@@ -1,5 +1,5 @@
 {
-  "name": "run-static",
+  "name": "run-static-server",
   "version": "1.0.0",
   "description": "A simple static file server based on express",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/xiaoqiangsdl/run-static.git"
   },
-  "author": "",
+  "author": "xiaoqiangsdl",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiaoqiangsdl/run-static/issues"
